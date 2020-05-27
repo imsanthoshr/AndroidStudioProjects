@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Log.i("user_name",editText.getText().toString());
         Log.i("password",editText2.getText().toString());
         Toast.makeText(this, "HI "+editText.getText().toString()+"!!!", Toast.LENGTH_SHORT).show();
+        //Toast.makeText(this, "HI "+editText.getText().toString()+"!!!", Toast.LENGTH_SHORT).show();
 
     }
 
@@ -25,5 +26,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //
     }
 }
