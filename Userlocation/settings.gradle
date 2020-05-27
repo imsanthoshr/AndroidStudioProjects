@@ -1,0 +1,2 @@
+rootProject.name='User location'
+include ':app'
